@@ -1,16 +1,18 @@
 {
-    "root": true, // Make sure eslint picks up the config at the root of the directory
+    "root": true,
     "parser": "@babel/eslint-parser",
     "parserOptions": {
-        "ecmaVersion": 2020, // Use the latest ECMAScript standard
-        "sourceType": "module", // Allows using import/export statements
+        "ecmaVersion": 6,
+        "sourceType": "module",
         "ecmaFeatures": {
-            "jsx": true // Enable JSX since we're using React
+            "jsx": true
         }
     },
 	"extends": [
-		"eslint:recommended",
+        "react-app",
+        "react-app/jest",
         "plugin:react/recommended",
+		"eslint:recommended",
 		"plugin:prettier/recommended"
 	],
 	"plugins": ["prettier"],
@@ -21,7 +23,7 @@
         "no-unused-vars": "off"
 	},
 	"env": {
-        "browser": true,// Enables browser globals like window and document
+        "browser": true,
         "jest":  true,
         "node": true
 	},

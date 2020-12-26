@@ -22,3 +22,5 @@ yarn add -D husky lint-staged eslint prettier
 -   [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier): Add the rules that format content using Prettier
 -   [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier): Disables rules that conflict with Prettier
 -   [babel-eslint](https://github.com/babel/babel-eslint): A parser that allows to use ESLint with code that is supported by Babel
+
+Please refer to [Wiki](https://github.com/codeewander/react-starter-eslint-prettier/wiki)to read more information.
